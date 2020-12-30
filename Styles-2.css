@@ -1,0 +1,171 @@
+body{
+    background-color: blue;
+}
+.head{
+    background-color: white;
+    position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 0px;
+        left: 0px;
+        bottom: 500px;
+        right: 0px;
+        
+        margin: auto;
+
+        border-radius: 40%;
+}
+.nose{
+    margin: auto;
+    position: relative;
+    display: block;
+    color: white;
+    top: 160px;
+    right: -100px;
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 200px solid red;
+    transform: rotate(90deg);
+    border-radius: 10% 0 20%;
+}
+.righteye{
+    background-color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    top: -35px;
+    right: -60px;
+}
+.lefteye{
+    background-color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    top: -78px;
+    left: -30px;
+}
+.mouth{
+    background-color: black;
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    top: 300px;
+    right:0px;
+    left: 920px;
+    bottom: 0px;
+    border-radius: 0 0 100% 100%;
+}
+.middle{
+    background-color: white;
+    position: relative;
+        height: 250px;
+        width: 250px;
+        top: 25px;
+        left: 5px;
+        bottom: 0px;
+        right: 0px;
+        margin: auto;
+        border-radius: 40%;
+}
+.button1{
+    background-color: black;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: -180px;
+    right:0px;
+    left: 950px;
+    bottom: 0px;
+    border-radius: 50%;
+}
+.button2{
+    background-color: black;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: -160px;
+    right:0px;
+    left: 950px;
+    bottom: 0px;
+    border-radius: 50%;
+}
+.button3{
+    background-color: black;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: -130px;
+    right:0px;
+    left: 950px;
+    bottom: 0px;
+    border-radius: 50%;
+}
+.bottom{
+    background-color: white;
+    position: absolute;
+        height: 300px;
+        width: 300px;
+        top: 970px;
+        left: 15px;
+        bottom: 500px;
+        right: 0px;
+        
+        margin: auto;
+
+        border-radius: 40%;
+}
+.righth{
+    background-color: brown;
+    position: relative;
+        height: 20px;
+        width: 100px;
+        transform: rotate(330deg);
+        top: -230px;
+        left: 745px;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 30%
+}
+.lefth{
+    background-color: brown;
+    position: relative;
+        height: 20px;
+        width: 100px;
+        transform: rotate(30deg);
+        top: -250px;
+        left: 1065px;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 30%
+}
+.leftf{
+    background-color: brown;
+    position: relative;
+        height: 20px;
+        width: 200px;
+        border-radius: 30%;
+        transform: rotate(50deg);
+        top: -190px;
+        left: 1120px;
+        bottom: 0px;
+        right: 0px;
+}
+.rightf{
+    background-color: brown;
+    position: relative;
+        height: 20px;
+        width: 200px;
+        border-radius: 30%;
+        transform: rotate(310deg);
+        top: -170px;
+        left: 590px;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 30%
+}
